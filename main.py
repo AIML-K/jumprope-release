@@ -44,6 +44,8 @@ if __name__=="__main__":
     model.eval()
     print("Model is built.")
     print(model)
+    model.load_state_dict(torch.load("model-4737.pt"))
+    print("Model weights are equipped.")
     
     # use cuda if available.
     if torch.cuda.is_available():

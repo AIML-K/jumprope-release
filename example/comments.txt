@@ -1,0 +1,2 @@
+real	: single 256/4 = 64 double 160/8 =20
+model	: single 252/4 = 63 double 168/8 =21
